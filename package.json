@@ -4,6 +4,7 @@
   "description": "Simple Socket.IO chat application",
   "author": "Ian Hofmann-Hicks (evil)",
   "license": "ISC",
+  "repository":"https://git.heroku.com/xopher.git",
   "scripts": {
     "build:js": "mkdir -p dist/js && webpack -p --config webpack.config.build --colors --progress",
     "watch:js": "mkdir -p site/js && webpack --watch --colors --progress",
@@ -19,7 +20,7 @@
     "serve": "nodemon server --ignore src/ --ignore site/ --ignore server/public/ -q",
     "test": "npm run specs -- --single-run --reporters dots",
     "start": "npm run clean:dev && parallelshell 'npm run watch:js' 'npm run watch:html' 'npm run watch:css' 'npm run serve'",
-    "heroku": "npm run clean:build && node server "
+    "heroku": "npm run build && node server "
   },
   "babel": {
     "plugins": [
