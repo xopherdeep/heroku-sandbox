@@ -18,7 +18,8 @@
     "specs": "node_modules/karma/bin/karma start",
     "serve": "nodemon server --ignore src/ --ignore site/ --ignore server/public/ -q",
     "test": "npm run specs -- --single-run --reporters dots",
-    "start": "npm run clean:dev && parallelshell 'npm run watch:js' 'npm run watch:html' 'npm run watch:css' 'npm run serve'"
+    "start": "npm run clean:dev && parallelshell 'npm run watch:js' 'npm run watch:html' 'npm run watch:css' 'npm run serve'",
+    "heroku": "npm run clean:build && node server "
   },
   "babel": {
     "plugins": [
