@@ -1,38 +1,21 @@
-# node-js-getting-started
+# evilChat
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+This is the project around a Let's Code YouTube series: [Let's Code](http://bit.ly/1KK0lOp)
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+This part of the series implements a Socket.IO Chat Example application that is found [here](http://socket.io/get-started/chat/).
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+The Application is based on a front-end application project boilerplate called [simply-evil-js](https://github.com/evilsoft/simply-evil-js).
 
-## Running Locally
+## System Requirements
+The build system must be used on a POSIX compliant operating system (Linux, BSD, OSX, etc) running a recent version of [nodejs](https://nodejs.org/) with a version of [npm](https://www.npmjs.com/) >= 2.0. Also you should probably have a CLI version of git installed. If you got all of that, then you are super sweet.
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+## Getting started
+First I would watch through the [YouTube Series](http://bit.ly/1KK0lOp) just so can can see what the differences are between this repo and the [build system](https://github.com/evilsoft/simply-evil-js).
 
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
+* Start off by cloning this repo down to a local directory.
+* In the cloned directory, you need to install the dependencies with `$ npm install`.
+* Once the dependencies are installed, you can start up the build system by running: `$ npm start`
+* That should get you up and running. Be sure to check the build system's [README.md](https://github.com/evilsoft/simply-evil-js/blob/master/README.md) for other little goodies you can do with it.
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+### Some notes
+* The branches used in the [series](http://bit.ly/1KK0lOp) are available for check out, by running: `$ git checkout [branch name here]`.
