@@ -23,7 +23,7 @@
     "serve": "nodemon server --ignore src/ --ignore site/ --ignore server/public/ -q",
     "test": "npm run specs -- --single-run --reporters dots",
     "start": "npm run clean:dev && parallelshell 'npm run watch:js' 'npm run watch:html' 'npm run watch:css' 'npm run serve'",
-    "postinstall": "npm run build && node server "
+    "postinstall": "npm run build"
   },
   "babel": {
     "plugins": [
