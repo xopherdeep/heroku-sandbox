@@ -62,10 +62,7 @@
     "webpack": "^1.9.8"
   },
   "dependencies": {
-    "express": "4.13.3",
-    "jade": "^1.11.0",
     "lodash": "^3.9.1",
     "mithril": "^0.2.0",
-    "webpack": "^1.12.2"
   }
 }
